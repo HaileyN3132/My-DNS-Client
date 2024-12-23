@@ -1,0 +1,359 @@
+C:\Users\behan\OneDrive\Desktop\Fall\CS 455_Networking\PAs>python dnsClient.py www.cnn.com
+Preparing DNS query ...
+DNS query header = 5c d6 01 20 00 01 00 00 00 00 00 00
+DNS query question section = 03 77 77 77 03 63 6e 6e 03 63 6f 6d 00 00 01 00 01
+Complete DNS query = 5c d6 01 20 00 01 00 00 00 00 00 00 03 77 77 77 03 63 6e 6e 03 63 6f 6d 00 00 01 00 01
+----------------------------------------------------------------------------
+header.ID = 5cd6
+header.QR = 1
+header.OPCODE = 0
+header.AA = 0
+header.TC = 0
+header.RD = 1
+header.RA = 1
+header.Z = 0
+header.RCODE = 0
+header.QDCOUNT = 0001
+header.ANCOUNT = 0005
+header.NSCOUNT = 0000
+header.ARCOUNT = 0000
+
+
+question.QNAME = 03 77 77 77 03 63 6e 6e 03 63 6f 6d 00
+questionQTYPE = 0001
+question.QCLASS = 0001
+
+
+answer.NAME =   c00c
+answer.TYPE =  0005
+answer.CLASS =  0001
+answer.TTL =  00000126
+answer.RDLENGTH =  0018
+answer.RDATA =  07636e6e2d746c73036d617006666173746c79036e657400
+
+answer.NAME =   c029
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  00000031
+answer.RDLENGTH =  0004
+answer.RDATA =  97658305
+
+answer.NAME =   c029
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  00000031
+answer.RDLENGTH =  0004
+answer.RDATA =  9765c305
+
+answer.NAME =   c029
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  00000031
+answer.RDLENGTH =  0004
+answer.RDATA =  97650305
+
+answer.NAME =   c029
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  00000031
+answer.RDLENGTH =  0004
+answer.RDATA =  97654305
+
+
+
+
+
+
+C:\Users\behan\OneDrive\Desktop\Fall\CS 455_Networking\PAs>python dnsClient.py www.gmu.edu
+Preparing DNS query ...
+DNS query header = 63 ef 01 20 00 01 00 00 00 00 00 00
+DNS query question section = 03 77 77 77 03 67 6d 75 03 65 64 75 00 00 01 00 01
+Complete DNS query = 63 ef 01 20 00 01 00 00 00 00 00 00 03 77 77 77 03 67 6d 75 03 65 64 75 00 00 01 00 01
+----------------------------------------------------------------------------
+header.ID = 63ef
+header.QR = 1
+header.OPCODE = 0
+header.AA = 0
+header.TC = 0
+header.RD = 1
+header.RA = 1
+header.Z = 0
+header.RCODE = 0
+header.QDCOUNT = 0001
+header.ANCOUNT = 0001
+header.NSCOUNT = 0000
+header.ARCOUNT = 0000
+
+
+question.QNAME = 03 77 77 77 03 67 6d 75 03 65 64 75 00
+questionQTYPE = 0001
+question.QCLASS = 0001
+
+
+answer.NAME =   c00c
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000050c
+answer.RDLENGTH =  0004
+answer.RDATA =  c07cf944
+
+
+
+
+
+
+C:\Users\behan\OneDrive\Desktop\Fall\CS 455_Networking\PAs>python dnsClient.py www.vt.edu
+Preparing DNS query ...
+DNS query header = 35 ec 01 20 00 01 00 00 00 00 00 00
+DNS query question section = 03 77 77 77 02 76 74 03 65 64 75 00 00 01 00 01
+Complete DNS query = 35 ec 01 20 00 01 00 00 00 00 00 00 03 77 77 77 02 76 74 03 65 64 75 00 00 01 00 01
+----------------------------------------------------------------------------
+header.ID = 35ec
+header.QR = 1
+header.OPCODE = 0
+header.AA = 0
+header.TC = 0
+header.RD = 1
+header.RA = 1
+header.Z = 0
+header.RCODE = 0
+header.QDCOUNT = 0001
+header.ANCOUNT = 0005
+header.NSCOUNT = 0000
+header.ARCOUNT = 0000
+
+
+question.QNAME = 03 77 77 77 02 76 74 03 65 64 75 00
+questionQTYPE = 0001
+question.QCLASS = 0001
+
+
+answer.NAME =   c00c
+answer.TYPE =  0005
+answer.CLASS =  0001
+answer.TTL =  00000146
+answer.RDLENGTH =  001f
+answer.RDATA =  0e64317871333166627234776f6d750a636c6f756466726f6e74036e657400
+
+answer.NAME =   c028
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000003c
+answer.RDLENGTH =  0004
+answer.RDATA =  0d209706
+
+answer.NAME =   c028
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000003c
+answer.RDLENGTH =  0004
+answer.RDATA =  0d209746
+
+answer.NAME =   c028
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000003c
+answer.RDLENGTH =  0004
+answer.RDATA =  0d209745
+
+answer.NAME =   c028
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000003c
+answer.RDLENGTH =  0004
+answer.RDATA =  0d209768
+
+
+
+
+
+
+
+C:\Users\behan\OneDrive\Desktop\Fall\CS 455_Networking\PAs>python dnsClient.py www.youtube.com
+Preparing DNS query ...
+DNS query header = 4c b1 01 20 00 01 00 00 00 00 00 00
+DNS query question section = 03 77 77 77 07 79 6f 75 74 75 62 65 03 63 6f 6d 00 00 01 00 01
+Complete DNS query = 4c b1 01 20 00 01 00 00 00 00 00 00 03 77 77 77 07 79 6f 75 74 75 62 65 03 63 6f 6d 00 00 01 00 01
+----------------------------------------------------------------------------
+header.ID = 4cb1
+header.QR = 1
+header.OPCODE = 0
+header.AA = 0
+header.TC = 0
+header.RD = 1
+header.RA = 1
+header.Z = 0
+header.RCODE = 0
+header.QDCOUNT = 0001
+header.ANCOUNT = 0011
+header.NSCOUNT = 0000
+header.ARCOUNT = 0000
+
+
+question.QNAME = 03 77 77 77 07 79 6f 75 74 75 62 65 03 63 6f 6d 00
+questionQTYPE = 0001
+question.QCLASS = 0001
+
+
+answer.NAME =   c00c
+answer.TYPE =  0005
+answer.CLASS =  0001
+answer.TTL =  0000000a
+answer.RDLENGTH =  0016
+answer.RDATA =  0a796f75747562652d7569016c06676f6f676c65c018
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000000a
+answer.RDLENGTH =  0004
+answer.RDATA =  8efba388
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000000a
+answer.RDLENGTH =  0004
+answer.RDATA =  acfd3e5d
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000000a
+answer.RDLENGTH =  0004
+answer.RDATA =  acfd3e5b
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000000a
+answer.RDLENGTH =  0004
+answer.RDATA =  8efba35b
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000000a
+answer.RDLENGTH =  0004
+answer.RDATA =  8efba35d
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000000a
+answer.RDLENGTH =  0004
+answer.RDATA =  acfd3e88
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000000a
+answer.RDLENGTH =  0004
+answer.RDATA =  acfd7388
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000000a
+answer.RDLENGTH =  0004
+answer.RDATA =  8efb105b
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000000a
+answer.RDLENGTH =  0004
+answer.RDATA =  acfd7a5b
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000000a
+answer.RDLENGTH =  0004
+answer.RDATA =  acfd735b
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000000a
+answer.RDLENGTH =  0004
+answer.RDATA =  acfd73be
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000000a
+answer.RDLENGTH =  0004
+answer.RDATA =  acfd735d
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000000a
+answer.RDLENGTH =  0004
+answer.RDATA =  acfd7a88
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000000a
+answer.RDLENGTH =  0004
+answer.RDATA =  8efb105d
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000000a
+answer.RDLENGTH =  0004
+answer.RDATA =  acfd3ebe
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000000a
+answer.RDLENGTH =  0004
+answer.RDATA =  8efba3be
+
+
+
+
+
+
+
+C:\Users\behan\OneDrive\Desktop\Fall\CS 455_Networking\PAs>python dnsClient.py www.example.com
+Preparing DNS query ...
+DNS query header = 66 28 01 20 00 01 00 00 00 00 00 00
+DNS query question section = 03 77 77 77 07 65 78 61 6d 70 6c 65 03 63 6f 6d 00 00 01 00 01
+Complete DNS query = 66 28 01 20 00 01 00 00 00 00 00 00 03 77 77 77 07 65 78 61 6d 70 6c 65 03 63 6f 6d 00 00 01 00 01
+----------------------------------------------------------------------------
+header.ID = 6628
+header.QR = 1
+header.OPCODE = 0
+header.AA = 0
+header.TC = 0
+header.RD = 1
+header.RA = 1
+header.Z = 2
+header.RCODE = 0
+header.QDCOUNT = 0001
+header.ANCOUNT = 0001
+header.NSCOUNT = 0000
+header.ARCOUNT = 0000
+
+
+question.QNAME = 03 77 77 77 07 65 78 61 6d 70 6c 65 03 63 6f 6d 00
+questionQTYPE = 0001
+question.QCLASS = 0001
+
+
+answer.NAME =   c00c
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  00000c1e
+answer.RDLENGTH =  0004
+answer.RDATA =  5db8d70e
+
+
+
+
+
