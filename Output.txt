@@ -1,0 +1,215 @@
+C:\Users\behan\OneDrive\Desktop\Fall\CS 455_Networking\5. Projects\Project 1>python dnsClient.py www.cnn.com
+Preparing DNS query ...
+DNS query header = c1 67 01 20 00 01 00 00 00 00 00 00
+DNS query question section = 03 77 77 77 03 63 6e 6e 03 63 6f 6d 00 00 01 00 01
+Complete DNS query = c1 67 01 20 00 01 00 00 00 00 00 00 03 77 77 77 03 63 6e 6e 03 63 6f 6d 00 00 01 00 01
+----------------------------------------------------------------------------
+header.ID = c167
+header.QR = 1
+header.OPCODE = 0
+header.AA = 0
+header.TC = 0
+header.RD = 1
+header.RA = 1
+header.Z = 0
+header.RCODE = 0
+header.QDCOUNT = 0001
+header.ANCOUNT = 0005
+header.NSCOUNT = 0000
+header.ARCOUNT = 0000
+
+
+question.QNAME = 03 77 77 77 03 63 6e 6e 03 63 6f 6d 00
+questionQTYPE = 0001
+question.QCLASS = 0001
+
+
+answer.NAME =   c00c
+answer.TYPE =  0005
+answer.CLASS =  0001
+answer.TTL =  00000101
+answer.RDLENGTH =  0018
+answer.RDATA =  07636e6e2d746c73036d617006666173746c79036e657400
+
+answer.NAME =   c029
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  00000003
+answer.RDLENGTH =  0004
+answer.RDATA =  151.101.67.5
+
+answer.NAME =   c029
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  00000003
+answer.RDLENGTH =  0004
+answer.RDATA =  151.101.195.5
+
+answer.NAME =   c029
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  00000003
+answer.RDLENGTH =  0004
+answer.RDATA =  151.101.131.5
+
+answer.NAME =   c029
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  00000003
+answer.RDLENGTH =  0004
+answer.RDATA =  151.101.3.5
+
+
+
+
+
+
+
+C:\Users\behan\OneDrive\Desktop\Fall\CS 455_Networking\5. Projects\Project 1>python dnsClient.py www.youtube.com
+Preparing DNS query ...
+DNS query header = 5b 0c 01 20 00 01 00 00 00 00 00 00
+DNS query question section = 03 77 77 77 07 79 6f 75 74 75 62 65 03 63 6f 6d 00 00 01 00 01
+Complete DNS query = 5b 0c 01 20 00 01 00 00 00 00 00 00 03 77 77 77 07 79 6f 75 74 75 62 65 03 63 6f 6d 00 00 01 00 01
+----------------------------------------------------------------------------
+header.ID = 5b0c
+header.QR = 1
+header.OPCODE = 0
+header.AA = 0
+header.TC = 0
+header.RD = 1
+header.RA = 1
+header.Z = 0
+header.RCODE = 0
+header.QDCOUNT = 0001
+header.ANCOUNT = 0011
+header.NSCOUNT = 0000
+header.ARCOUNT = 0000
+
+
+question.QNAME = 03 77 77 77 07 79 6f 75 74 75 62 65 03 63 6f 6d 00
+questionQTYPE = 0001
+question.QCLASS = 0001
+
+
+answer.NAME =   c00c
+answer.TYPE =  0005
+answer.CLASS =  0001
+answer.TTL =  0000011d
+answer.RDLENGTH =  0016
+answer.RDATA =  0a796f75747562652d7569016c06676f6f676c65c018
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000011d
+answer.RDLENGTH =  0004
+answer.RDATA =  64.233.180.93
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000011d
+answer.RDLENGTH =  0004
+answer.RDATA =  64.233.180.91
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000011d
+answer.RDLENGTH =  0004
+answer.RDATA =  64.233.180.136
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000011d
+answer.RDLENGTH =  0004
+answer.RDATA =  172.253.115.91
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000011d
+answer.RDLENGTH =  0004
+answer.RDATA =  142.251.179.91
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000011d
+answer.RDLENGTH =  0004
+answer.RDATA =  172.253.122.190
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000011d
+answer.RDLENGTH =  0004
+answer.RDATA =  172.253.115.93
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000011d
+answer.RDLENGTH =  0004
+answer.RDATA =  172.253.115.136
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000011d
+answer.RDLENGTH =  0004
+answer.RDATA =  64.233.180.190
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000011d
+answer.RDLENGTH =  0004
+answer.RDATA =  172.253.63.93
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000011d
+answer.RDLENGTH =  0004
+answer.RDATA =  172.253.122.93
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000011d
+answer.RDLENGTH =  0004
+answer.RDATA =  142.251.179.190
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000011d
+answer.RDLENGTH =  0004
+answer.RDATA =  172.253.63.136
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000011d
+answer.RDLENGTH =  0004
+answer.RDATA =  172.253.122.136
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000011d
+answer.RDLENGTH =  0004
+answer.RDATA =  172.253.115.190
+
+answer.NAME =   c02d
+answer.TYPE =  0001
+answer.CLASS =  0001
+answer.TTL =  0000011d
+answer.RDLENGTH =  0004
+answer.RDATA =  172.253.122.91
+
+
+
+
